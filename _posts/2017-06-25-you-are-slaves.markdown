@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      "他是狗，你们便是苟奴隶"
-subtitle:   ""
-date:       2017-06-24 12:00:00
-author:     "Hux"
+title:      "什么都不会，但又什么都会了"
+subtitle:   "12届智能车竞赛之我见"
+date:       2017-07-14 23:26:00
+author:     "Shepherd"
 header-img: ""
 ---
 
