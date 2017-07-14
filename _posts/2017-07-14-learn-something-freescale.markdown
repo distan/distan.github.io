@@ -4,7 +4,7 @@ title:      "什么都不会，但又什么都会了"
 subtitle:   "12届智能车竞赛之我见"
 date:       2017-07-14 23:26:00
 author:     "Shepherd"
-header-img: ""
+header-img: "img/post-bg-freescale.jpg"
 ---
 
 > 今天是七月十四日，星期五  
