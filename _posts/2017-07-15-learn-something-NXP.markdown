@@ -5,6 +5,9 @@ subtitle:   "第12届智能车竞赛"
 date:       2017-07-15 23:48:41
 author:     "Shepherd"
 header-img: "img/post-bg-freescale.jpg"
+tags:
+    - NXP
+    - 智能车
 ---
 
 > 今天是七月十五日，星期六  
