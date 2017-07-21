@@ -1,42 +1,26 @@
 ---
 layout:     post
-title:      "下一代 Web 应用模型 —— Progressive Web App"
-subtitle:   "The Next Generation Application Model For The Web - Progressive Web App"
-date:       2017-02-09 12:00:00
-author:     "Hux"
-header-img: "img/post-bg-nextgen-web-pwa.jpg"
+title:      "Github 个人博客建立教程"
+subtitle:   ""
+date:       2017-07-21 17:29:00
+author:     "Shepherd"
+header-img: "img/in-post/post-github-blog/post-blog-00.jpg"
 header-mask: 0.3
-catalog:    true
 tags:
-    - 前端开发
-    - JavaScript
-    - PWA
+    - Github
+    - Blog
 ---
 
 
 
-> 本文首发于[《程序员》](http://geek.csdn.net/news/detail/135595)，发布于 [Hux Blog](https://huangxuan.me)、[前端外刊评论](https://zhuanlan.zhihu.com/FrontendMagazine)，转载请保留链接 ;)
+1、现在GitHub上注册一个账号，然后按图中所示，建立一个仓库。
+
+![](/img/in-post/post-github-blog/post-blog-01.jpg)
 
 
-## 下一代 Web 应用？
+2、按照提示填写相关内容，由于我们已经建立过仓库，所以提示有重名，新建立的用户不会有这个提示。
+![](/img/in-post/post-github-blog/post-blog-02.jpg)
 
-近年来，Web 应用在整个软件与互联网行业承载的责任越来越重，软件复杂度和维护成本越来越高，Web 技术，尤其是 Web 客户端技术，迎来了爆发式的发展。
-
-包括但不限于基于 Node.js 的前端工程化方案；诸如 Webpack、Rollup 这样的打包工具；Babel、PostCSS 这样的转译工具；TypeScript、Elm 这样转译至 JavaScript 的编程语言；React、Angular、Vue 这样面向现代 web 应用需求的前端框架及其生态，也涌现出了像[同构 JavaScript][1]与[通用 JavaScript 应用][2]这样将服务器端渲染（Server-side Rendering）与单页面应用模型（Single-page App）结合的 web 应用架构方式，可以说是百花齐放。
-
-但是，Web 应用在移动时代并没有达到其在桌面设备上流行的程度。究其原因，尽管上述的各种方案已经充分利用了现有的 JavaScript 计算能力、CSS 布局能力、HTTP 缓存与浏览器 API 对当代基于 [Ajax][3] 与[响应式设计][4]的 web 应用模型的性能与体验带来了工程角度的巨大突破，我们仍然无法在不借助原生程序辅助浏览器的前提下突破 web 平台本身对 web 应用固有的桎梏：**客户端软件（即网页）需要下载所带来的网络延迟；与 Web 应用依赖浏览器作为入口所带来的体验问题。**
-
-![](/img/in-post/post-nextgen-web-pwa/PWAR-007.jpeg)
-*Web 与原生应用在移动平台上的使用时长对比 [图片来源: Google][i2]*
-
-在桌面设备上，由于网络条件稳定，屏幕尺寸充分，交互方式趋向于多任务，这两点造成的负面影响对比 web 应用免于安装、随叫随到、无需更新等优点，瑕不掩瑜。但是在移动时代，脆弱的网络连接与全新的人机交互方式使得这两个问题被无限放大，严重制约了 web 应用在移动平台的发展。在用户眼里，原生应用不会出现「白屏」，清一色都摆在主屏幕上；而 web 应用则是浏览器这个应用中的应用，使用起来并不方便，而且加载也比原生应用要慢。
-
-Progressive Web Apps（以下简称 PWA）以及构成 PWA 的一系列关键技术的出现，终于让我们看到了彻底解决这两个平台级别问题的曙光：能够显著提高应用加载速度、甚至让 web 应用可以在离线环境使用的 Service Worker 与 Cache Storage；用于描述 web 应用元数据（metadata）、让 web 应用能够像原生应用一样被添加到主屏、全屏执行的 Web App Manifest；以及进一步提高 web 应用与操作系统集成能力，让 web 应用能在未被激活时发起推送通知的 Push API 与 Notification API 等等。
-
-将这些技术组合在一起会是怎样的效果呢？「印度阿里巴巴」 —— [Flipkart][17] 在 2015 年一度关闭了自己的移动端网站，却在年底发布了现在最为人津津乐道的 PWA 案例 *FlipKart Lite*，成为世界上第一个支撑大规模业务的 PWA。发布的一周后它就亮相于 [Chrome Dev Summit 2015][15] 上，笔者当时就被惊艳到了。为了方便各媒介上的读者观看，笔者做了几幅图方便给大家介绍：
-
-![](/img/in-post/post-nextgen-web-pwa/flipkart-1.jpeg)
-*图片来源: Hux & [Medium.com][i3]*
 
 当浏览器发现用户[需要][16] Flipkart Lite 时，它就会提示用户「嘿，你可以把它添加至主屏哦」（用户也可以手动添加）。这样，Flipkart Lite 就会像原生应用一样在主屏上留下一个自定义的 icon 作为入口；与一般的书签不同，当用户点击 icon 时，Flipkat Lite 将直接全屏打开，不再受困于浏览器的 UI 中，而且有自己的启动屏效果。
 
