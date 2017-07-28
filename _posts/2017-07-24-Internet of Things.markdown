@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "物联网——前往未来的路还很漫长"
+title:      "物联网，前进的路会困难，我们都知道"
 subtitle:   "Always"
 date:       2017-07-24 16:02:00
 author:     "Shepherd"
