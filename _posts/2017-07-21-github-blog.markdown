@@ -13,7 +13,7 @@ tags:
 
 
 
-1、现在GitHub上注册一个账号，然后按图中所示，建立一个仓库。
+1、先在GitHub上注册一个账号，然后按图中所示，建立一个仓库。
 
 ![](/img/in-post/post-github-blog/post-blog-01.jpg)
 
