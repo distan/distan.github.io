@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 _site
 node_modules
 npm-debug.log
@@ -5,3 +6,12 @@ npm-debug.log
 */.DS_Store
 */*/.DS_Store
 *.sh
+=======
+_site
+node_modules
+npm-debug.log
+.DS_Store
+*/.DS_Store
+*/*/.DS_Store
+*.sh
+>>>>>>> a234f3d2fbbf2d54c36309101fae3f89f224027b
